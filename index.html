@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Yan Yu - Software Engineer Portfolio - AI, ML, and Full-Stack Development"
+    />
+    <title>Yan Yu - Software Engineer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-brand">
+          <a href="#home">&lt;YanYu /&gt;</a>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Yan Yu</span>
+          </h1>
+          <h2 class="hero-subtitle">Software Engineer & AI/ML Enthusiast</h2>
+          <p class="hero-description">
+            Master's student in Computer Science at UCLA, passionate about
+            building intelligent systems and scalable applications. Specializing
+            in AI, machine learning, and full-stack development.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+          <div class="social-links">
+            <a
+              href="https://github.com/yanyu"
+              target="_blank"
+              aria-label="GitHub"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/yu-yan-a9077a2ab/"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:yan_yu@ucsb.edu" aria-label="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <span></span>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm currently pursuing my Master's in Computer Science at UCLA
+              (2025-2027) with a Department Scholarship, building upon my
+              Bachelor's in Applied Mathematics from UC Santa Barbara where I
+              graduated with a 3.8 GPA and Dean's Honor.
+            </p>
+            <p>
+              My professional experience includes working as a Software
+              Engineering Intern at INNOVA AI Tech LLC, where I designed AI
+              Agent systems using LangChain and OpenAI GPT models. I've also
+              contributed to cutting-edge research at UCSB's Human-AI
+              Integration Lab and Media Skill Lab, developing machine learning
+              models, data pipelines, and interactive visualization systems.
+            </p>
+            <p>
+              I specialize in AI/ML systems, full-stack development, and
+              building scalable distributed systems. With expertise in Python,
+              Java, C++, and modern frameworks, I'm passionate about solving
+              complex problems and creating impactful technology solutions.
+            </p>
+          </div>
+          <div class="about-stats">
+            <div class="stat-card">
+              <h3>3.8</h3>
+              <p>GPA (UCSB)</p>
+            </div>
+            <div class="stat-card">
+              <h3>5000+</h3>
+              <p>Data Points Processed</p>
+            </div>
+            <div class="stat-card">
+              <h3>15+</h3>
+              <p>Technologies Mastered</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">
+          A showcase of my recent work and side projects
+        </p>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://via.placeholder.com/600x400/667eea/ffffff?text=EdgeSim-AI"
+                alt="EdgeSim-AI"
+              />
+              <div class="project-overlay">
+                <a href="#" class="project-link" target="_blank">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a href="#" class="project-link" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>EdgeSim-AI — Sensor-Driven Autonomy Simulation</h3>
+              <p>
+                Linux-based C++ simulation system that fuses LiDAR, camera, and
+                IMU data through gRPC for real-time perception and control
+                testing on edge GPUs (Jetson Orin). Features PyTorch
+                sensor-fusion model and CI-ready containerized workflow.
+              </p>
+              <div class="project-tags">
+                <span class="tag">C++</span>
+                <span class="tag">PyTorch</span>
+                <span class="tag">gRPC</span>
+                <span class="tag">Docker</span>
+                <span class="tag">Kubernetes</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://via.placeholder.com/600x400/764ba2/ffffff?text=Task+Scheduling"
+                alt="Distributed Task Scheduling"
+              />
+              <div class="project-overlay">
+                <a href="#" class="project-link" target="_blank">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a href="#" class="project-link" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Distributed Task Scheduling System</h3>
+              <p>
+                Microservices architecture with Spring Boot handling thousands
+                of concurrent task requests daily. Implemented distributed
+                message queue using RabbitMQ and Redis caching. Engineered CI/CD
+                pipeline with Jenkins and Docker, achieving 90% test coverage.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Spring Boot</span>
+                <span class="tag">RabbitMQ</span>
+                <span class="tag">Redis</span>
+                <span class="tag">Jenkins</span>
+                <span class="tag">JUnit</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://via.placeholder.com/600x400/f093fb/ffffff?text=AI+Agent+System"
+                alt="AI Agent System"
+              />
+              <div class="project-overlay">
+                <a href="#" class="project-link" target="_blank">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a href="#" class="project-link" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Modular AI Agent System with RAG</h3>
+              <p>
+                Designed and implemented AI Agent system with LangChain and
+                OpenAI GPT models, supporting multi-turn dialogue and
+                retrieval-augmented generation. Integrated external services via
+                RESTful APIs and deployed with Docker. Built RAG pipelines using
+                Milvus vector databases.
+              </p>
+              <div class="project-tags">
+                <span class="tag">LangChain</span>
+                <span class="tag">OpenAI GPT</span>
+                <span class="tag">FastAPI</span>
+                <span class="tag">Redis</span>
+                <span class="tag">Milvus</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://via.placeholder.com/600x400/4facfe/ffffff?text=LSTM+CNN+Model"
+                alt="Hand Movement Prediction"
+              />
+              <div class="project-overlay">
+                <a href="#" class="project-link" target="_blank">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a href="#" class="project-link" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>LSTM/CNN Hybrid Model for Hand Movement</h3>
+              <p>
+                Developed hybrid neural network model to mimic hand movement
+                using MyoDex sensor data for the Artificial Coach project. Built
+                3D visualization components with Open3D and created custom
+                neural network architecture achieving high validation success
+                rate.
+              </p>
+              <div class="project-tags">
+                <span class="tag">PyTorch</span>
+                <span class="tag">TensorFlow</span>
+                <span class="tag">NumPy</span>
+                <span class="tag">Open3D</span>
+                <span class="tag">C++</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://via.placeholder.com/600x400/43e97b/ffffff?text=Political+Data+Analysis"
+                alt="Political Data Analysis"
+              />
+              <div class="project-overlay">
+                <a href="#" class="project-link" target="_blank">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a href="#" class="project-link" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Political Data Collection & Analysis Platform</h3>
+              <p>
+                Engineered data collection system scraping 5000 political posts
+                daily using Python and BeautifulSoup. Implemented SQL database
+                with indexing optimization and built REST API with Flask.
+                Created interactive dashboards using D3.js and React with 87%
+                sentiment analysis accuracy.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">BeautifulSoup</span>
+                <span class="tag">SQL</span>
+                <span class="tag">Flask</span>
+                <span class="tag">D3.js</span>
+                <span class="tag">React</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 6 -->
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://via.placeholder.com/600x400/fa709a/ffffff?text=More+Projects"
+                alt="More Projects"
+              />
+              <div class="project-overlay">
+                <a
+                  href="https://github.com/yanyu"
+                  class="project-link"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>& More Projects...</h3>
+              <p>
+                Check out my GitHub for more projects including data processing
+                pipelines, machine learning experiments, algorithm
+                implementations, and open-source contributions. Always working
+                on something new!
+              </p>
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Java</span>
+                <span class="tag">C++</span>
+                <span class="tag">ML/AI</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <p class="section-subtitle">The tools and technologies I work with</p>
+
+        <div class="skills-grid">
+          <div class="skill-category">
+            <div class="skill-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>Programming Languages</h3>
+            <ul class="skill-list">
+              <li>Python</li>
+              <li>Java</li>
+              <li>C++</li>
+              <li>JavaScript</li>
+              <li>SQL</li>
+              <li>R</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-icon">
+              <i class="fas fa-brain"></i>
+            </div>
+            <h3>AI & Machine Learning</h3>
+            <ul class="skill-list">
+              <li>PyTorch</li>
+              <li>TensorFlow</li>
+              <li>LangChain</li>
+              <li>OpenAI GPT Models</li>
+              <li>NLP & Sentiment Analysis</li>
+              <li>Neural Network Architectures</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <h3>Databases & Storage</h3>
+            <ul class="skill-list">
+              <li>SQL Databases (PostgreSQL, MySQL)</li>
+              <li>Redis & Redis Stack</li>
+              <li>Milvus Vector Database</li>
+              <li>Database Indexing & Optimization</li>
+              <li>RabbitMQ Message Queue</li>
+              <li>Data Pipeline Design</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-icon">
+              <i class="fas fa-cloud"></i>
+            </div>
+            <h3>DevOps & Infrastructure</h3>
+            <ul class="skill-list">
+              <li>Docker & Kubernetes</li>
+              <li>CI/CD (Jenkins, GitHub Actions)</li>
+              <li>AWS Cloud Services</li>
+              <li>Linux System Administration</li>
+              <li>gRPC & RESTful APIs</li>
+              <li>Microservices Architecture</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <h3>Frameworks & Libraries</h3>
+            <ul class="skill-list">
+              <li>Spring Boot</li>
+              <li>Flask & FastAPI</li>
+              <li>React & D3.js</li>
+              <li>NumPy & Pandas</li>
+              <li>BeautifulSoup (Web Scraping)</li>
+              <li>Open3D (3D Visualization)</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-icon">
+              <i class="fas fa-tools"></i>
+            </div>
+            <h3>Tools & Testing</h3>
+            <ul class="skill-list">
+              <li>Git & GitHub</li>
+              <li>Jupyter Notebook</li>
+              <li>JUnit Testing (90% Coverage)</li>
+              <li>Swagger API Documentation</li>
+              <li>SDLC & Agile Methodologies</li>
+              <li>Debugging & Performance Tuning</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+      <div class="container">
+        <h2 class="section-title">Experience & Education</h2>
+        <p class="section-subtitle">
+          My professional journey and academic background
+        </p>
+
+        <div class="timeline">
+          <!-- Education 1 -->
+          <div class="timeline-item">
+            <div class="timeline-icon education">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>Master of Engineering in Computer Science</h3>
+                <span class="timeline-date">September 2025 - January 2027</span>
+              </div>
+              <h4>University of California, Los Angeles</h4>
+              <p>
+                Department Scholarship recipient. Focusing on advanced topics in
+                artificial intelligence, machine learning, and distributed
+                systems.
+              </p>
+            </div>
+          </div>
+
+          <!-- Professional Experience 1 -->
+          <div class="timeline-item">
+            <div class="timeline-icon work">
+              <i class="fas fa-briefcase"></i>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>Software Engineering Intern</h3>
+                <span class="timeline-date">June 2025 - September 2025</span>
+              </div>
+              <h4>INNOVA AI Tech LLC (Remote)</h4>
+              <ul>
+                <li>
+                  Designed modular AI Agent system with LangChain and OpenAI GPT
+                  models
+                </li>
+                <li>
+                  Implemented RAG pipelines using Milvus vector databases for
+                  scalable retrieval
+                </li>
+                <li>
+                  Built backend service with FastAPI and Redis Stack for session
+                  management
+                </li>
+                <li>
+                  Integrated external services via RESTful APIs with
+                  fault-tolerant communication
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Research Experience 1 -->
+          <div class="timeline-item">
+            <div class="timeline-icon research">
+              <i class="fas fa-flask"></i>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>Research Assistant - Human-AI Integration Lab</h3>
+                <span class="timeline-date">January 2024 - September 2025</span>
+              </div>
+              <h4>UC Santa Barbara</h4>
+              <ul>
+                <li>
+                  Developed LSTM/CNN hybrid model for hand movement prediction
+                  using sensor data
+                </li>
+                <li>
+                  Built 3D visualization components with Open3D processing
+                  spatial data
+                </li>
+                <li>
+                  Implemented game application with C++ featuring
+                  multi-threading capabilities
+                </li>
+                <li>
+                  Created custom neural network architecture with high
+                  validation success rate
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Research Experience 2 -->
+          <div class="timeline-item">
+            <div class="timeline-icon research">
+              <i class="fas fa-flask"></i>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>Research Assistant - Media Skill Lab</h3>
+                <span class="timeline-date"
+                  >February 2024 - September 2025</span
+                >
+              </div>
+              <h4>UC Santa Barbara</h4>
+              <ul>
+                <li>
+                  Engineered data collection system scraping 5000 political
+                  posts daily
+                </li>
+                <li>
+                  Implemented SQL database with indexing optimization, reducing
+                  query response time
+                </li>
+                <li>
+                  Developed REST API with Flask handling concurrent requests
+                  efficiently
+                </li>
+                <li>
+                  Built text classification model achieving 87% sentiment
+                  analysis accuracy
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Education 2 -->
+          <div class="timeline-item">
+            <div class="timeline-icon education">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>Bachelor of Science in Applied Mathematics</h3>
+                <span class="timeline-date">June 2022 - September 2026</span>
+              </div>
+              <h4>University of California, Santa Barbara</h4>
+              <p>
+                GPA: 3.8/4.0 | Dean's Honor. Strong foundation in mathematical
+                modeling, statistical analysis, and computational methods.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">Let's work together on your next project</p>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Email</h3>
+                <a href="mailto:yan_yu@ucsb.edu">yan_yu@ucsb.edu</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Location</h3>
+                <p>Los Angeles, CA</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Phone</h3>
+                <a href="tel:+19452644540">+1 (945) 264-4540</a>
+              </div>
+            </div>
+
+            <div class="contact-social">
+              <a
+                href="https://github.com/yanyu"
+                target="_blank"
+                aria-label="GitHub"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/yu-yan-a9077a2ab/"
+                target="_blank"
+                aria-label="LinkedIn"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="mailto:yan_yu@ucsb.edu" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+
+          <form class="contact-form">
+            <div class="form-group">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Subject"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 Yan Yu. Built with ❤️ and code.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
